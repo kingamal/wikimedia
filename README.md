@@ -82,7 +82,7 @@ Dashboard stosuje system wizualny Wikimedia zgodnie z wytycznymi konkursu:
 ## Źródła danych
 
 - **Zbiór**: miesięczna liczba wyświetleń stron pl.wikipedia.org w podziale na desktop, mobile web i aplikację mobilną
-- **Pochodzenie**: Wikimedia Analytics, [Pageviews API](https://wikimedia.org/api/rest_v1/#/Pageviews%20data),
+- **Pochodzenie**: Wikimedia Analytics, [Wikimedia Analytics API](https://doc.wikimedia.org/generated-data-platform/aqs/analytics-api/),
   udostępnione w repozytorium [BI_NGO 2026: Wikimedia Polska](https://github.com/bi-ngo-wolontariat/BI_NGO-2026-Wikimedia-Polska)
 - **Zakres**: od stycznia 2016 do czerwca 2026 (126 miesięcy)
 - **Filtr ruchu**: `agent=user`, dane nie obejmują ruchu botów i pełzaczy
