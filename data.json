@@ -1557,6 +1557,114 @@
     "partial_years": [
       2026
     ],
-    "seasonal_basis": "srednia z pelnych lat 2016–2025"
-  }
+    "seasonal_basis": "srednia z pelnych lat 2016–2025",
+    "external_sources": {
+      "population": "Bank Swiatowy, SP.POP.TOTL (Polska)",
+      "internet_users": "Bank Swiatowy, IT.NET.USER.ZS (Polska)",
+      "retrieved": "2026-09-22",
+      "note": "Penetracja internetu za 2025 nie byla opublikowana; przyjeto wartosc z 2024 (88,6%)."
+    }
+  },
+  "context": [
+    {
+      "year": 2016,
+      "total": 3840117435,
+      "population": 37970087,
+      "internet_pct": 73.3,
+      "internet_pct_estimated": false,
+      "internet_users": 27832074,
+      "views_per_capita": 101.1,
+      "views_per_user": 138.0
+    },
+    {
+      "year": 2017,
+      "total": 3547495473,
+      "population": 37974826,
+      "internet_pct": 76.0,
+      "internet_pct_estimated": false,
+      "internet_users": 28860868,
+      "views_per_capita": 93.4,
+      "views_per_user": 122.9
+    },
+    {
+      "year": 2018,
+      "total": 3599319479,
+      "population": 37974750,
+      "internet_pct": 77.5,
+      "internet_pct_estimated": false,
+      "internet_users": 29430431,
+      "views_per_capita": 94.8,
+      "views_per_user": 122.3
+    },
+    {
+      "year": 2019,
+      "total": 3640997570,
+      "population": 37965475,
+      "internet_pct": 80.4,
+      "internet_pct_estimated": false,
+      "internet_users": 30524242,
+      "views_per_capita": 95.9,
+      "views_per_user": 119.3
+    },
+    {
+      "year": 2020,
+      "total": 4018740197,
+      "population": 37515748,
+      "internet_pct": 83.2,
+      "internet_pct_estimated": false,
+      "internet_users": 31213102,
+      "views_per_capita": 107.1,
+      "views_per_user": 128.8
+    },
+    {
+      "year": 2021,
+      "total": 3879509439,
+      "population": 36981559,
+      "internet_pct": 85.4,
+      "internet_pct_estimated": false,
+      "internet_users": 31582251,
+      "views_per_capita": 104.9,
+      "views_per_user": 122.8
+    },
+    {
+      "year": 2022,
+      "total": 3675363276,
+      "population": 36821749,
+      "internet_pct": 86.9,
+      "internet_pct_estimated": false,
+      "internet_users": 31998100,
+      "views_per_capita": 99.8,
+      "views_per_user": 114.9
+    },
+    {
+      "year": 2023,
+      "total": 3820260529,
+      "population": 36687353,
+      "internet_pct": 86.4,
+      "internet_pct_estimated": false,
+      "internet_users": 31697873,
+      "views_per_capita": 104.1,
+      "views_per_user": 120.5
+    },
+    {
+      "year": 2024,
+      "total": 3613626607,
+      "population": 36559233,
+      "internet_pct": 88.6,
+      "internet_pct_estimated": false,
+      "internet_users": 32391480,
+      "views_per_capita": 98.8,
+      "views_per_user": 111.6
+    },
+    {
+      "year": 2025,
+      "total": 3485846665,
+      "population": 36435861,
+      "internet_pct": 88.6,
+      "internet_pct_estimated": true,
+      "internet_users": 32282173,
+      "views_per_capita": 95.7,
+      "views_per_user": 108.0
+    }
+  ]
 }
