@@ -9,6 +9,8 @@ we współpracy ze Stowarzyszeniem Wikimedia Polska.
 - **Sezonowość**: średnia oglądalność w poszczególnych miesiącach (2016–2025); kolorem wyróżnione miesiące powyżej średniej rocznej
 - **Udział urządzeń**: dziesięcioletni trend: desktop, mobile web i aplikacja mobilna jako procent całego ruchu
 - **Trend długookresowy**: 126 miesięcy, od stycznia 2016 do czerwca 2026
+- **Porównanie z kontekstem**: ruch Wikipedii zestawiony z liczbą mieszkańców
+  i internautów w Polsce, w skali indeksowej 2016 = 100
 - **Mapa ciepła**: miesiąc × rok, ze skalą i oznaczeniem braku danych
 - **Obserwacje**: komentarz do każdego wykresu
 
@@ -37,6 +39,8 @@ wikipedia-seasonal/
 ├── index.html                              # Dashboard (dane wbudowane w plik)
 ├── data.json                               # Dane źródłowe + metadane metodologiczne
 ├── assets/
+│   ├── js/
+│   │   └── chart.umd.min.js                # Chart.js 4.4.1, MIT
 │   ├── logos/
 │   │   ├── wikipedia.svg                   # CC BY-SA 3.0
 │   │   └── wikimedia-polska.svg            # CC BY 4.0
@@ -54,6 +58,10 @@ wikipedia-seasonal/
 - **Aplikacja mobilna pozostaje marginalna**: poniżej 1% ruchu przez całe dziesięciolecie
 - **Ruch ogółem maleje**: 3,84 mld wyświetleń w 2016 wobec 3,49 mld w 2025 (−9,2%)
 - **2020 jako anomalia**: kwiecień (402 mln) i maj (407 mln) to najwyższe wartości w całym zbiorze poza styczniami. Sezonowość pękła w czasie lockdownu
+- **Demografia nie tłumaczy spadku**: ludności Polski ubywa (−4%), ale internautów przybyło (+16%).
+  Mimo to liczba wyświetleń przypadających na jednego internautę spadła o **21,7%**,
+  ze 138 do 108 rocznie. Wikipedia traci nie dlatego, że jest nas mniej, tylko dlatego,
+  że każdy sięga po nią rzadziej
 
 ## Identyfikacja wizualna
 
@@ -80,9 +88,24 @@ Dashboard stosuje system wizualny Wikimedia zgodnie z wytycznymi konkursu:
   długookresowego i mapa ciepła pokazują komplet 126 miesięcy; w mapie ciepła brakujące
   miesiące 2026 oznaczono jako „brak danych"
 
+## Dane zewnętrzne
+
+Karta porównawcza korzysta z dwóch wskaźników Banku Światowego dla Polski,
+pobranych przez API 22 września 2026 roku:
+
+- [`SP.POP.TOTL`](https://data.worldbank.org/indicator/SP.POP.TOTL?locations=PL): liczba ludności
+- [`IT.NET.USER.ZS`](https://data.worldbank.org/indicator/IT.NET.USER.ZS?locations=PL): odsetek osób korzystających z internetu
+
+Odsetek internautów za 2025 rok nie był jeszcze opublikowany, dlatego przyjęto
+wartość z 2024 roku (88,6%). To założenie ostrożne: gdyby penetracja nadal rosła,
+spadek liczby wyświetleń na internautę okazałby się jeszcze głębszy.
+Wszystkie wartości pochodne zapisano w `data.json` w bloku `context`,
+a opis źródeł w `meta.external_sources`.
+
 ## Technologie
 
-HTML5, CSS3, Chart.js 3.9.1 (z CDN), Vanilla JavaScript. Dashboard jest responsywny.
+HTML5, CSS3, Chart.js 4.4.1 (hostowany lokalnie, licencja MIT), Vanilla JavaScript.
+Dashboard jest responsywny i nie wymaga połączenia z zewnętrznymi serwerami.
 
 ## Licencja
 
