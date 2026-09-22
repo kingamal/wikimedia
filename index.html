@@ -864,6 +864,26 @@
             }
         }
 
+        /* Miejscownik nazw miesięcy: "w styczniu", "w lipcu".
+           Mechaniczne doklejanie końcówki do mianownika daje formy błędne,
+           dlatego odmiana jest wypisana wprost. */
+        const MONTH_LOCATIVE = {
+            'Styczeń': 'styczniu',
+            'Luty': 'lutym',
+            'Marzec': 'marcu',
+            'Kwiecień': 'kwietniu',
+            'Maj': 'maju',
+            'Czerwiec': 'czerwcu',
+            'Lipiec': 'lipcu',
+            'Sierpień': 'sierpniu',
+            'Wrzesień': 'wrześniu',
+            'Październik': 'październiku',
+            'Listopad': 'listopadzie',
+            'Grudzień': 'grudniu'
+        };
+
+        const inMonth = (name) => MONTH_LOCATIVE[name] || name.toLowerCase();
+
         function formatNumber(num) {
             if (num >= 1000000000) return (num / 1000000000).toFixed(2) + 'B';
             if (num >= 1000000) return (num / 1000000).toFixed(1) + 'M';
@@ -970,7 +990,7 @@
                             order: 2
                         },
                         {
-                            label: 'Trend: średnia z 12 miesięcy',
+                            label: 'Trend: średnia z 12 miesięcy (od XII 2016)',
                             data: movingAvg,
                             borderColor: WM.blue,
                             backgroundColor: 'rgba(12, 87, 168, 0.07)',
@@ -1364,7 +1384,7 @@
                             </div>
                         </div>
                         <div class="insight">
-                            <strong>Obserwacja.</strong> W ${maxMonth.month_name.toLowerCase()}u Wikipedia notuje <strong>${((maxMonth.total / minMonth.total - 1) * 100).toFixed(0)}% więcej</strong> wyświetleń niż w ${minMonth.month_name.toLowerCase()}u. Rytm pokrywa się z rokiem szkolnym: wzrost od października, szczyt zimą i wczesną wiosną, zapaść w wakacje.
+                            <strong>Obserwacja.</strong> W ${inMonth(maxMonth.month_name)} Wikipedia notuje <strong>${((maxMonth.total / minMonth.total - 1) * 100).toFixed(0)}% więcej</strong> wyświetleń niż w ${inMonth(minMonth.month_name)}. Rytm pokrywa się z rokiem szkolnym: wzrost od października, szczyt zimą i wczesną wiosną, zapaść w wakacje.
                         </div>
                     </div>
 
@@ -1401,8 +1421,9 @@
                                     aria-label="Powiększ wykres">&#9974;</button>
                         </div>
                         <p>126 kolejnych miesięcy. Gruba linia to średnia z dwunastu miesięcy,
-                           która znosi wahania sezonowe i pokazuje sam kierunek zmian.
-                           Dane za 2026 rok kończą się na czerwcu.</p>
+                           która znosi wahania sezonowe i pokazuje sam kierunek zmian. Zaczyna się
+                           w grudniu 2016 roku, bo wcześniej nie ma jeszcze pełnego roku danych
+                           do uśrednienia. Dane za 2026 rok kończą się na czerwcu.</p>
                         <div class="chart-container">
                             <canvas id="timelineChart"></canvas>
                         </div>
