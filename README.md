@@ -8,6 +8,7 @@ we współpracy ze Stowarzyszeniem Wikimedia Polska.
 
 - **Sezonowość**: średnia oglądalność w poszczególnych miesiącach (2016–2025); kolorem wyróżnione miesiące powyżej średniej rocznej
 - **Udział urządzeń**: dziesięcioletni trend: desktop, mobile web i aplikacja mobilna jako procent całego ruchu
+- **Weryfikacja tezy o AI**: trend na tle dat wdrożenia ChatGPT i AI Overviews w Polsce
 - **Trend długookresowy**: 126 miesięcy, od stycznia 2016 do czerwca 2026
 - **Porównanie z kontekstem**: ruch Wikipedii zestawiony z liczbą mieszkańców
   i internautów w Polsce, w skali indeksowej 2016 = 100
@@ -58,6 +59,9 @@ wikipedia-seasonal/
 - **Aplikacja mobilna pozostaje marginalna**: poniżej 1% ruchu przez całe dziesięciolecie
 - **Ruch ogółem maleje**: 3,84 mld wyświetleń w 2016 wobec 3,49 mld w 2025 (−9,2%)
 - **2020 jako anomalia**: kwiecień (402 mln) i maj (407 mln) to najwyższe wartości w całym zbiorze poza styczniami. Sezonowość pękła w czasie lockdownu
+- **AI nie tłumaczy spadku w czasie**: najgłębsze spadki przypadły na jesień 2024 i początek 2025,
+  a AI Overviews uruchomiono w Polsce dopiero 25 marca 2025. Po tej dacie trend się ustabilizował
+  (+0,5%), a jesień 2025 przyniosła wzrosty rzędu 20% rok do roku
 - **Demografia nie tłumaczy spadku**: ludności Polski ubywa (−4%), ale internautów przybyło (+16%).
   Mimo to liczba wyświetleń przypadających na jednego internautę spadła o **21,7%**,
   ze 138 do 108 rocznie. Wikipedia traci nie dlatego, że jest nas mniej, tylko dlatego,
@@ -95,6 +99,9 @@ pobranych przez API 22 września 2026 roku:
 
 - [`SP.POP.TOTL`](https://data.worldbank.org/indicator/SP.POP.TOTL?locations=PL): liczba ludności
 - [`IT.NET.USER.ZS`](https://data.worldbank.org/indicator/IT.NET.USER.ZS?locations=PL): odsetek osób korzystających z internetu
+
+Daty wdrożeń narzędzi AI (premiera ChatGPT 30 listopada 2022, uruchomienie AI Overviews
+w Polsce 25 marca 2025) pochodzą z komunikatów Google i doniesień branżowych.
 
 Odsetek internautów za 2025 rok nie był jeszcze opublikowany, dlatego przyjęto
 wartość z 2024 roku (88,6%). To założenie ostrożne: gdyby penetracja nadal rosła,

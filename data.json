@@ -1666,5 +1666,40 @@
       "views_per_capita": 95.7,
       "views_per_user": 108.0
     }
-  ]
+  ],
+  "ai_context": {
+    "milestones": [
+      {
+        "date": "2022-11",
+        "label": "Premiera ChatGPT",
+        "short": "ChatGPT"
+      },
+      {
+        "date": "2025-03",
+        "label": "AI Overviews w Polsce",
+        "short": "AI Overviews"
+      }
+    ],
+    "windows": [
+      {
+        "from": "2021-03",
+        "to": "2022-11",
+        "label": "Przed ChatGPT",
+        "change_pct": -9.7
+      },
+      {
+        "from": "2022-11",
+        "to": "2025-03",
+        "label": "Era ChatGPT",
+        "change_pct": -8.2
+      },
+      {
+        "from": "2025-03",
+        "to": "2026-06",
+        "label": "Po AI Overviews",
+        "change_pct": 0.5
+      }
+    ],
+    "source": "Daty wdrozen: komunikaty Google, marzec 2025 dla Polski."
+  }
 }
