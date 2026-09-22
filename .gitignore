@@ -1,0 +1,13 @@
+# Pliki systemowe
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Edytory
+.vscode/
+.idea/
+*.swp
+
+# Kopie zapasowe i pliki tymczasowe
+*.bak
+*.tmp

@@ -1,0 +1,1562 @@
+{
+  "heatmap": {
+    "Styczeń": {
+      "2016": 367633635,
+      "2017": 351074136,
+      "2018": 341026830,
+      "2019": 349354468,
+      "2020": 357722111,
+      "2021": 370645886,
+      "2022": 365118095,
+      "2023": 329518779,
+      "2024": 392961841,
+      "2025": 318332888,
+      "2026": 340960669
+    },
+    "Luty": {
+      "2016": 348753288,
+      "2017": 310760618,
+      "2018": 287978651,
+      "2019": 307739765,
+      "2020": 304000264,
+      "2021": 343628087,
+      "2022": 329865562,
+      "2023": 309004207,
+      "2024": 387041055,
+      "2025": 267935462,
+      "2026": 256289473
+    },
+    "Marzec": {
+      "2016": 341172832,
+      "2017": 349938309,
+      "2018": 307793246,
+      "2019": 340134754,
+      "2020": 362238704,
+      "2021": 374381607,
+      "2022": 333492893,
+      "2023": 336066845,
+      "2024": 325977035,
+      "2025": 293947969,
+      "2026": 261725916
+    },
+    "Kwiecień": {
+      "2016": 313561525,
+      "2017": 310503393,
+      "2018": 309473906,
+      "2019": 281839709,
+      "2020": 402359781,
+      "2021": 365531742,
+      "2022": 295814631,
+      "2023": 307594158,
+      "2024": 313144976,
+      "2025": 271055599,
+      "2026": 238140336
+    },
+    "Maj": {
+      "2016": 316914891,
+      "2017": 325057522,
+      "2018": 307351206,
+      "2019": 308624585,
+      "2020": 407523778,
+      "2021": 336019717,
+      "2022": 292012805,
+      "2023": 331336123,
+      "2024": 290858963,
+      "2025": 282766536,
+      "2026": 252104694
+    },
+    "Czerwiec": {
+      "2016": 302974350,
+      "2017": 273268776,
+      "2018": 284554277,
+      "2019": 272864171,
+      "2020": 311337469,
+      "2021": 297328278,
+      "2022": 266556856,
+      "2023": 318040117,
+      "2024": 277294176,
+      "2025": 248137871,
+      "2026": 250858684
+    },
+    "Lipiec": {
+      "2016": 268621844,
+      "2017": 244001499,
+      "2018": 273687405,
+      "2019": 293559391,
+      "2020": 280510472,
+      "2021": 284922387,
+      "2022": 263467459,
+      "2023": 313852678,
+      "2024": 266476406,
+      "2025": 265608520,
+      "2026": null
+    },
+    "Sierpień": {
+      "2016": 273523955,
+      "2017": 249157398,
+      "2018": 264712334,
+      "2019": 280766118,
+      "2020": 275802878,
+      "2021": 282867831,
+      "2022": 276546120,
+      "2023": 318082507,
+      "2024": 282211331,
+      "2025": 286035223,
+      "2026": null
+    },
+    "Wrzesień": {
+      "2016": 290887104,
+      "2017": 263169110,
+      "2018": 275865190,
+      "2019": 272793596,
+      "2020": 278605737,
+      "2021": 278694807,
+      "2022": 309293750,
+      "2023": 294149297,
+      "2024": 256882039,
+      "2025": 286065278,
+      "2026": null
+    },
+    "Październik": {
+      "2016": 353053953,
+      "2017": 286944502,
+      "2018": 304351043,
+      "2019": 304523663,
+      "2020": 317882945,
+      "2021": 312395028,
+      "2022": 307875920,
+      "2023": 321181408,
+      "2024": 263527203,
+      "2025": 295633961,
+      "2026": null
+    },
+    "Listopad": {
+      "2016": 343342096,
+      "2017": 301400424,
+      "2018": 329408290,
+      "2019": 309069097,
+      "2020": 373999588,
+      "2021": 319464245,
+      "2022": 335078965,
+      "2023": 315651956,
+      "2024": 277102982,
+      "2025": 334564779,
+      "2026": null
+    },
+    "Grudzień": {
+      "2016": 319677962,
+      "2017": 282219786,
+      "2018": 313117101,
+      "2019": 319728253,
+      "2020": 346756470,
+      "2021": 313629824,
+      "2022": 300240220,
+      "2023": 325782454,
+      "2024": 280148600,
+      "2025": 335762579,
+      "2026": null
+    }
+  },
+  "seasonal": [
+    {
+      "month_num": 1,
+      "month_name": "Styczeń",
+      "total": 354338867,
+      "mobile_app": 2312932,
+      "desktop": 184216348,
+      "mobile_web": 167809586,
+      "years_count": 10
+    },
+    {
+      "month_num": 2,
+      "month_name": "Luty",
+      "total": 319670696,
+      "mobile_app": 2071895,
+      "desktop": 169137269,
+      "mobile_web": 148461532,
+      "years_count": 10
+    },
+    {
+      "month_num": 3,
+      "month_name": "Marzec",
+      "total": 336514419,
+      "mobile_app": 2168730,
+      "desktop": 175302326,
+      "mobile_web": 159043363,
+      "years_count": 10
+    },
+    {
+      "month_num": 4,
+      "month_name": "Kwiecień",
+      "total": 317087942,
+      "mobile_app": 2054207,
+      "desktop": 165053818,
+      "mobile_web": 149979917,
+      "years_count": 10
+    },
+    {
+      "month_num": 5,
+      "month_name": "Maj",
+      "total": 319846613,
+      "mobile_app": 2034087,
+      "desktop": 165641970,
+      "mobile_web": 152170556,
+      "years_count": 10
+    },
+    {
+      "month_num": 6,
+      "month_name": "Czerwiec",
+      "total": 285235634,
+      "mobile_app": 1737967,
+      "desktop": 148248604,
+      "mobile_web": 135249063,
+      "years_count": 10
+    },
+    {
+      "month_num": 7,
+      "month_name": "Lipiec",
+      "total": 275470806,
+      "mobile_app": 1989462,
+      "desktop": 133980118,
+      "mobile_web": 139501226,
+      "years_count": 10
+    },
+    {
+      "month_num": 8,
+      "month_name": "Sierpień",
+      "total": 278970570,
+      "mobile_app": 2098381,
+      "desktop": 131552535,
+      "mobile_web": 145319653,
+      "years_count": 10
+    },
+    {
+      "month_num": 9,
+      "month_name": "Wrzesień",
+      "total": 280640591,
+      "mobile_app": 1956365,
+      "desktop": 135003276,
+      "mobile_web": 143680950,
+      "years_count": 10
+    },
+    {
+      "month_num": 10,
+      "month_name": "Październik",
+      "total": 306736963,
+      "mobile_app": 2044444,
+      "desktop": 152415299,
+      "mobile_web": 152277220,
+      "years_count": 10
+    },
+    {
+      "month_num": 11,
+      "month_name": "Listopad",
+      "total": 323908242,
+      "mobile_app": 2100545,
+      "desktop": 161832106,
+      "mobile_web": 159975592,
+      "years_count": 10
+    },
+    {
+      "month_num": 12,
+      "month_name": "Grudzień",
+      "total": 313706325,
+      "mobile_app": 2168464,
+      "desktop": 155486169,
+      "mobile_web": 156051692,
+      "years_count": 10
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2016-01",
+      "year": 2016,
+      "month": 1,
+      "total": 367633635,
+      "mobile_app": 1759856,
+      "desktop": 255127443,
+      "mobile_web": 110746336
+    },
+    {
+      "date": "2016-02",
+      "year": 2016,
+      "month": 2,
+      "total": 348753288,
+      "mobile_app": 1543396,
+      "desktop": 249426439,
+      "mobile_web": 97783453
+    },
+    {
+      "date": "2016-03",
+      "year": 2016,
+      "month": 3,
+      "total": 341172832,
+      "mobile_app": 1791957,
+      "desktop": 234450001,
+      "mobile_web": 104930874
+    },
+    {
+      "date": "2016-04",
+      "year": 2016,
+      "month": 4,
+      "total": 313561525,
+      "mobile_app": 1312990,
+      "desktop": 216766868,
+      "mobile_web": 95481667
+    },
+    {
+      "date": "2016-05",
+      "year": 2016,
+      "month": 5,
+      "total": 316914891,
+      "mobile_app": 1627109,
+      "desktop": 219588914,
+      "mobile_web": 95698868
+    },
+    {
+      "date": "2016-06",
+      "year": 2016,
+      "month": 6,
+      "total": 302974350,
+      "mobile_app": 1500321,
+      "desktop": 211505454,
+      "mobile_web": 89968575
+    },
+    {
+      "date": "2016-07",
+      "year": 2016,
+      "month": 7,
+      "total": 268621844,
+      "mobile_app": 1493517,
+      "desktop": 178864697,
+      "mobile_web": 88263630
+    },
+    {
+      "date": "2016-08",
+      "year": 2016,
+      "month": 8,
+      "total": 273523955,
+      "mobile_app": 1443652,
+      "desktop": 181565341,
+      "mobile_web": 90514962
+    },
+    {
+      "date": "2016-09",
+      "year": 2016,
+      "month": 9,
+      "total": 290887104,
+      "mobile_app": 1312966,
+      "desktop": 193386602,
+      "mobile_web": 96187536
+    },
+    {
+      "date": "2016-10",
+      "year": 2016,
+      "month": 10,
+      "total": 353053953,
+      "mobile_app": 1316780,
+      "desktop": 243786752,
+      "mobile_web": 107950421
+    },
+    {
+      "date": "2016-11",
+      "year": 2016,
+      "month": 11,
+      "total": 343342096,
+      "mobile_app": 1429112,
+      "desktop": 226925506,
+      "mobile_web": 114987478
+    },
+    {
+      "date": "2016-12",
+      "year": 2016,
+      "month": 12,
+      "total": 319677962,
+      "mobile_app": 1604105,
+      "desktop": 207821386,
+      "mobile_web": 110252471
+    },
+    {
+      "date": "2017-01",
+      "year": 2017,
+      "month": 1,
+      "total": 351074136,
+      "mobile_app": 2127587,
+      "desktop": 224066084,
+      "mobile_web": 124880465
+    },
+    {
+      "date": "2017-02",
+      "year": 2017,
+      "month": 2,
+      "total": 310760618,
+      "mobile_app": 2439855,
+      "desktop": 195206506,
+      "mobile_web": 113114257
+    },
+    {
+      "date": "2017-03",
+      "year": 2017,
+      "month": 3,
+      "total": 349938309,
+      "mobile_app": 2072316,
+      "desktop": 224937915,
+      "mobile_web": 122928078
+    },
+    {
+      "date": "2017-04",
+      "year": 2017,
+      "month": 4,
+      "total": 310503393,
+      "mobile_app": 1771197,
+      "desktop": 193206062,
+      "mobile_web": 115526134
+    },
+    {
+      "date": "2017-05",
+      "year": 2017,
+      "month": 5,
+      "total": 325057522,
+      "mobile_app": 1773347,
+      "desktop": 207108019,
+      "mobile_web": 116176156
+    },
+    {
+      "date": "2017-06",
+      "year": 2017,
+      "month": 6,
+      "total": 273268776,
+      "mobile_app": 1586418,
+      "desktop": 173408252,
+      "mobile_web": 98274106
+    },
+    {
+      "date": "2017-07",
+      "year": 2017,
+      "month": 7,
+      "total": 244001499,
+      "mobile_app": 1631587,
+      "desktop": 147565992,
+      "mobile_web": 94803920
+    },
+    {
+      "date": "2017-08",
+      "year": 2017,
+      "month": 8,
+      "total": 249157398,
+      "mobile_app": 1720335,
+      "desktop": 148219647,
+      "mobile_web": 99217416
+    },
+    {
+      "date": "2017-09",
+      "year": 2017,
+      "month": 9,
+      "total": 263169110,
+      "mobile_app": 1706326,
+      "desktop": 154723262,
+      "mobile_web": 106739522
+    },
+    {
+      "date": "2017-10",
+      "year": 2017,
+      "month": 10,
+      "total": 286944502,
+      "mobile_app": 1821958,
+      "desktop": 170253079,
+      "mobile_web": 114869465
+    },
+    {
+      "date": "2017-11",
+      "year": 2017,
+      "month": 11,
+      "total": 301400424,
+      "mobile_app": 1882195,
+      "desktop": 179061642,
+      "mobile_web": 120456587
+    },
+    {
+      "date": "2017-12",
+      "year": 2017,
+      "month": 12,
+      "total": 282219786,
+      "mobile_app": 1854788,
+      "desktop": 163400772,
+      "mobile_web": 116964226
+    },
+    {
+      "date": "2018-01",
+      "year": 2018,
+      "month": 1,
+      "total": 341026830,
+      "mobile_app": 2053685,
+      "desktop": 197397818,
+      "mobile_web": 141575327
+    },
+    {
+      "date": "2018-02",
+      "year": 2018,
+      "month": 2,
+      "total": 287978651,
+      "mobile_app": 1826317,
+      "desktop": 160973795,
+      "mobile_web": 125178539
+    },
+    {
+      "date": "2018-03",
+      "year": 2018,
+      "month": 3,
+      "total": 307793246,
+      "mobile_app": 1892712,
+      "desktop": 172846659,
+      "mobile_web": 133053875
+    },
+    {
+      "date": "2018-04",
+      "year": 2018,
+      "month": 4,
+      "total": 309473906,
+      "mobile_app": 1764234,
+      "desktop": 184198948,
+      "mobile_web": 123510724
+    },
+    {
+      "date": "2018-05",
+      "year": 2018,
+      "month": 5,
+      "total": 307351206,
+      "mobile_app": 1858167,
+      "desktop": 170317386,
+      "mobile_web": 135175653
+    },
+    {
+      "date": "2018-06",
+      "year": 2018,
+      "month": 6,
+      "total": 284554277,
+      "mobile_app": 1782907,
+      "desktop": 154052462,
+      "mobile_web": 128718908
+    },
+    {
+      "date": "2018-07",
+      "year": 2018,
+      "month": 7,
+      "total": 273687405,
+      "mobile_app": 1937752,
+      "desktop": 140490243,
+      "mobile_web": 131259410
+    },
+    {
+      "date": "2018-08",
+      "year": 2018,
+      "month": 8,
+      "total": 264712334,
+      "mobile_app": 1938094,
+      "desktop": 135650691,
+      "mobile_web": 127123549
+    },
+    {
+      "date": "2018-09",
+      "year": 2018,
+      "month": 9,
+      "total": 275865190,
+      "mobile_app": 1843798,
+      "desktop": 143776484,
+      "mobile_web": 130244908
+    },
+    {
+      "date": "2018-10",
+      "year": 2018,
+      "month": 10,
+      "total": 304351043,
+      "mobile_app": 1890364,
+      "desktop": 166798887,
+      "mobile_web": 135661792
+    },
+    {
+      "date": "2018-11",
+      "year": 2018,
+      "month": 11,
+      "total": 329408290,
+      "mobile_app": 1989158,
+      "desktop": 181387425,
+      "mobile_web": 146031707
+    },
+    {
+      "date": "2018-12",
+      "year": 2018,
+      "month": 12,
+      "total": 313117101,
+      "mobile_app": 2113760,
+      "desktop": 160831625,
+      "mobile_web": 150171716
+    },
+    {
+      "date": "2019-01",
+      "year": 2019,
+      "month": 1,
+      "total": 349354468,
+      "mobile_app": 2240160,
+      "desktop": 184697214,
+      "mobile_web": 162417094
+    },
+    {
+      "date": "2019-02",
+      "year": 2019,
+      "month": 2,
+      "total": 307739765,
+      "mobile_app": 1914607,
+      "desktop": 164176885,
+      "mobile_web": 141648273
+    },
+    {
+      "date": "2019-03",
+      "year": 2019,
+      "month": 3,
+      "total": 340134754,
+      "mobile_app": 2088071,
+      "desktop": 180252510,
+      "mobile_web": 157794173
+    },
+    {
+      "date": "2019-04",
+      "year": 2019,
+      "month": 4,
+      "total": 281839709,
+      "mobile_app": 2039040,
+      "desktop": 141672102,
+      "mobile_web": 138128567
+    },
+    {
+      "date": "2019-05",
+      "year": 2019,
+      "month": 5,
+      "total": 308624585,
+      "mobile_app": 2198532,
+      "desktop": 150752077,
+      "mobile_web": 155673976
+    },
+    {
+      "date": "2019-06",
+      "year": 2019,
+      "month": 6,
+      "total": 272864171,
+      "mobile_app": 1962638,
+      "desktop": 138733650,
+      "mobile_web": 132167883
+    },
+    {
+      "date": "2019-07",
+      "year": 2019,
+      "month": 7,
+      "total": 293559391,
+      "mobile_app": 2034299,
+      "desktop": 153889305,
+      "mobile_web": 137635787
+    },
+    {
+      "date": "2019-08",
+      "year": 2019,
+      "month": 8,
+      "total": 280766118,
+      "mobile_app": 2225342,
+      "desktop": 131977083,
+      "mobile_web": 146563693
+    },
+    {
+      "date": "2019-09",
+      "year": 2019,
+      "month": 9,
+      "total": 272793596,
+      "mobile_app": 2062010,
+      "desktop": 127908718,
+      "mobile_web": 142822868
+    },
+    {
+      "date": "2019-10",
+      "year": 2019,
+      "month": 10,
+      "total": 304523663,
+      "mobile_app": 2185718,
+      "desktop": 147632553,
+      "mobile_web": 154705392
+    },
+    {
+      "date": "2019-11",
+      "year": 2019,
+      "month": 11,
+      "total": 309069097,
+      "mobile_app": 2218868,
+      "desktop": 149510527,
+      "mobile_web": 157339702
+    },
+    {
+      "date": "2019-12",
+      "year": 2019,
+      "month": 12,
+      "total": 319728253,
+      "mobile_app": 2234588,
+      "desktop": 164784347,
+      "mobile_web": 152709318
+    },
+    {
+      "date": "2020-01",
+      "year": 2020,
+      "month": 1,
+      "total": 357722111,
+      "mobile_app": 2449841,
+      "desktop": 184663179,
+      "mobile_web": 170609091
+    },
+    {
+      "date": "2020-02",
+      "year": 2020,
+      "month": 2,
+      "total": 304000264,
+      "mobile_app": 2188832,
+      "desktop": 152927334,
+      "mobile_web": 148884098
+    },
+    {
+      "date": "2020-03",
+      "year": 2020,
+      "month": 3,
+      "total": 362238704,
+      "mobile_app": 2263599,
+      "desktop": 194826357,
+      "mobile_web": 165148748
+    },
+    {
+      "date": "2020-04",
+      "year": 2020,
+      "month": 4,
+      "total": 402359781,
+      "mobile_app": 2333038,
+      "desktop": 221732501,
+      "mobile_web": 178294242
+    },
+    {
+      "date": "2020-05",
+      "year": 2020,
+      "month": 5,
+      "total": 407523778,
+      "mobile_app": 1762273,
+      "desktop": 226132672,
+      "mobile_web": 179628833
+    },
+    {
+      "date": "2020-06",
+      "year": 2020,
+      "month": 6,
+      "total": 311337469,
+      "mobile_app": 323059,
+      "desktop": 166541662,
+      "mobile_web": 144472748
+    },
+    {
+      "date": "2020-07",
+      "year": 2020,
+      "month": 7,
+      "total": 280510472,
+      "mobile_app": 1914512,
+      "desktop": 139856566,
+      "mobile_web": 138739394
+    },
+    {
+      "date": "2020-08",
+      "year": 2020,
+      "month": 8,
+      "total": 275802878,
+      "mobile_app": 2048291,
+      "desktop": 132124859,
+      "mobile_web": 141629728
+    },
+    {
+      "date": "2020-09",
+      "year": 2020,
+      "month": 9,
+      "total": 278605737,
+      "mobile_app": 1953611,
+      "desktop": 137533684,
+      "mobile_web": 139118442
+    },
+    {
+      "date": "2020-10",
+      "year": 2020,
+      "month": 10,
+      "total": 317882945,
+      "mobile_app": 2128160,
+      "desktop": 162142019,
+      "mobile_web": 153612766
+    },
+    {
+      "date": "2020-11",
+      "year": 2020,
+      "month": 11,
+      "total": 373999588,
+      "mobile_app": 2248287,
+      "desktop": 196210994,
+      "mobile_web": 175540307
+    },
+    {
+      "date": "2020-12",
+      "year": 2020,
+      "month": 12,
+      "total": 346756470,
+      "mobile_app": 2177962,
+      "desktop": 177576375,
+      "mobile_web": 167002133
+    },
+    {
+      "date": "2021-01",
+      "year": 2021,
+      "month": 1,
+      "total": 370645886,
+      "mobile_app": 2386720,
+      "desktop": 185463681,
+      "mobile_web": 182795485
+    },
+    {
+      "date": "2021-02",
+      "year": 2021,
+      "month": 2,
+      "total": 343628087,
+      "mobile_app": 2004925,
+      "desktop": 183047645,
+      "mobile_web": 158575517
+    },
+    {
+      "date": "2021-03",
+      "year": 2021,
+      "month": 3,
+      "total": 374381607,
+      "mobile_app": 2143486,
+      "desktop": 197720470,
+      "mobile_web": 174517651
+    },
+    {
+      "date": "2021-04",
+      "year": 2021,
+      "month": 4,
+      "total": 365531742,
+      "mobile_app": 2178769,
+      "desktop": 188623841,
+      "mobile_web": 174729132
+    },
+    {
+      "date": "2021-05",
+      "year": 2021,
+      "month": 5,
+      "total": 336019717,
+      "mobile_app": 2067075,
+      "desktop": 173804130,
+      "mobile_web": 160148512
+    },
+    {
+      "date": "2021-06",
+      "year": 2021,
+      "month": 6,
+      "total": 297328278,
+      "mobile_app": 1884348,
+      "desktop": 153003481,
+      "mobile_web": 142440449
+    },
+    {
+      "date": "2021-07",
+      "year": 2021,
+      "month": 7,
+      "total": 284922387,
+      "mobile_app": 2003442,
+      "desktop": 135042196,
+      "mobile_web": 147876749
+    },
+    {
+      "date": "2021-08",
+      "year": 2021,
+      "month": 8,
+      "total": 282867831,
+      "mobile_app": 2131401,
+      "desktop": 127477803,
+      "mobile_web": 153258627
+    },
+    {
+      "date": "2021-09",
+      "year": 2021,
+      "month": 9,
+      "total": 278694807,
+      "mobile_app": 1936100,
+      "desktop": 129883465,
+      "mobile_web": 146875242
+    },
+    {
+      "date": "2021-10",
+      "year": 2021,
+      "month": 10,
+      "total": 312395028,
+      "mobile_app": 2043109,
+      "desktop": 152286810,
+      "mobile_web": 158065109
+    },
+    {
+      "date": "2021-11",
+      "year": 2021,
+      "month": 11,
+      "total": 319464245,
+      "mobile_app": 2087580,
+      "desktop": 155551937,
+      "mobile_web": 161824728
+    },
+    {
+      "date": "2021-12",
+      "year": 2021,
+      "month": 12,
+      "total": 313629824,
+      "mobile_app": 2176092,
+      "desktop": 153320998,
+      "mobile_web": 158132734
+    },
+    {
+      "date": "2022-01",
+      "year": 2022,
+      "month": 1,
+      "total": 365118095,
+      "mobile_app": 2471048,
+      "desktop": 182674660,
+      "mobile_web": 179972387
+    },
+    {
+      "date": "2022-02",
+      "year": 2022,
+      "month": 2,
+      "total": 329865562,
+      "mobile_app": 2160562,
+      "desktop": 161631584,
+      "mobile_web": 166073416
+    },
+    {
+      "date": "2022-03",
+      "year": 2022,
+      "month": 3,
+      "total": 333492893,
+      "mobile_app": 2305554,
+      "desktop": 163071951,
+      "mobile_web": 168115388
+    },
+    {
+      "date": "2022-04",
+      "year": 2022,
+      "month": 4,
+      "total": 295814631,
+      "mobile_app": 2236325,
+      "desktop": 139601236,
+      "mobile_web": 153977070
+    },
+    {
+      "date": "2022-05",
+      "year": 2022,
+      "month": 5,
+      "total": 292012805,
+      "mobile_app": 2151394,
+      "desktop": 141088905,
+      "mobile_web": 148772506
+    },
+    {
+      "date": "2022-06",
+      "year": 2022,
+      "month": 6,
+      "total": 266556856,
+      "mobile_app": 2026522,
+      "desktop": 129626166,
+      "mobile_web": 134904168
+    },
+    {
+      "date": "2022-07",
+      "year": 2022,
+      "month": 7,
+      "total": 263467459,
+      "mobile_app": 2138140,
+      "desktop": 112185531,
+      "mobile_web": 149143788
+    },
+    {
+      "date": "2022-08",
+      "year": 2022,
+      "month": 8,
+      "total": 276546120,
+      "mobile_app": 2233546,
+      "desktop": 111132585,
+      "mobile_web": 163179989
+    },
+    {
+      "date": "2022-09",
+      "year": 2022,
+      "month": 9,
+      "total": 309293750,
+      "mobile_app": 2182363,
+      "desktop": 122643396,
+      "mobile_web": 184467991
+    },
+    {
+      "date": "2022-10",
+      "year": 2022,
+      "month": 10,
+      "total": 307875920,
+      "mobile_app": 2236742,
+      "desktop": 124690202,
+      "mobile_web": 180948976
+    },
+    {
+      "date": "2022-11",
+      "year": 2022,
+      "month": 11,
+      "total": 335078965,
+      "mobile_app": 2227533,
+      "desktop": 131664615,
+      "mobile_web": 201186817
+    },
+    {
+      "date": "2022-12",
+      "year": 2022,
+      "month": 12,
+      "total": 300240220,
+      "mobile_app": 2383178,
+      "desktop": 128034373,
+      "mobile_web": 169822669
+    },
+    {
+      "date": "2023-01",
+      "year": 2023,
+      "month": 1,
+      "total": 329518779,
+      "mobile_app": 2496902,
+      "desktop": 140906376,
+      "mobile_web": 186115501
+    },
+    {
+      "date": "2023-02",
+      "year": 2023,
+      "month": 2,
+      "total": 309004207,
+      "mobile_app": 2156238,
+      "desktop": 132198137,
+      "mobile_web": 174649832
+    },
+    {
+      "date": "2023-03",
+      "year": 2023,
+      "month": 3,
+      "total": 336066845,
+      "mobile_app": 2296331,
+      "desktop": 141243296,
+      "mobile_web": 192527218
+    },
+    {
+      "date": "2023-04",
+      "year": 2023,
+      "month": 4,
+      "total": 307594158,
+      "mobile_app": 2287901,
+      "desktop": 136483062,
+      "mobile_web": 168823195
+    },
+    {
+      "date": "2023-05",
+      "year": 2023,
+      "month": 5,
+      "total": 331336123,
+      "mobile_app": 2302703,
+      "desktop": 130601916,
+      "mobile_web": 198431504
+    },
+    {
+      "date": "2023-06",
+      "year": 2023,
+      "month": 6,
+      "total": 318040117,
+      "mobile_app": 2101654,
+      "desktop": 130002687,
+      "mobile_web": 185935776
+    },
+    {
+      "date": "2023-07",
+      "year": 2023,
+      "month": 7,
+      "total": 313852678,
+      "mobile_app": 2235833,
+      "desktop": 118949086,
+      "mobile_web": 192667759
+    },
+    {
+      "date": "2023-08",
+      "year": 2023,
+      "month": 8,
+      "total": 318082507,
+      "mobile_app": 2349458,
+      "desktop": 115872483,
+      "mobile_web": 199860566
+    },
+    {
+      "date": "2023-09",
+      "year": 2023,
+      "month": 9,
+      "total": 294149297,
+      "mobile_app": 2113171,
+      "desktop": 107129078,
+      "mobile_web": 184907048
+    },
+    {
+      "date": "2023-10",
+      "year": 2023,
+      "month": 10,
+      "total": 321181408,
+      "mobile_app": 2190741,
+      "desktop": 119388743,
+      "mobile_web": 199601924
+    },
+    {
+      "date": "2023-11",
+      "year": 2023,
+      "month": 11,
+      "total": 315651956,
+      "mobile_app": 2221074,
+      "desktop": 119216337,
+      "mobile_web": 194214545
+    },
+    {
+      "date": "2023-12",
+      "year": 2023,
+      "month": 12,
+      "total": 325782454,
+      "mobile_app": 2369983,
+      "desktop": 113883766,
+      "mobile_web": 209528705
+    },
+    {
+      "date": "2024-01",
+      "year": 2024,
+      "month": 1,
+      "total": 392961841,
+      "mobile_app": 2477290,
+      "desktop": 163553843,
+      "mobile_web": 226930708
+    },
+    {
+      "date": "2024-02",
+      "year": 2024,
+      "month": 2,
+      "total": 387041055,
+      "mobile_app": 2214499,
+      "desktop": 185262554,
+      "mobile_web": 199564002
+    },
+    {
+      "date": "2024-03",
+      "year": 2024,
+      "month": 3,
+      "total": 325977035,
+      "mobile_app": 2374479,
+      "desktop": 119810564,
+      "mobile_web": 203791992
+    },
+    {
+      "date": "2024-04",
+      "year": 2024,
+      "month": 4,
+      "total": 313144976,
+      "mobile_app": 2253740,
+      "desktop": 116106440,
+      "mobile_web": 194784796
+    },
+    {
+      "date": "2024-05",
+      "year": 2024,
+      "month": 5,
+      "total": 290858963,
+      "mobile_app": 2415145,
+      "desktop": 116421523,
+      "mobile_web": 172022295
+    },
+    {
+      "date": "2024-06",
+      "year": 2024,
+      "month": 6,
+      "total": 277294176,
+      "mobile_app": 2287595,
+      "desktop": 120418729,
+      "mobile_web": 154587852
+    },
+    {
+      "date": "2024-07",
+      "year": 2024,
+      "month": 7,
+      "total": 266476406,
+      "mobile_app": 2443403,
+      "desktop": 102710752,
+      "mobile_web": 161322251
+    },
+    {
+      "date": "2024-08",
+      "year": 2024,
+      "month": 8,
+      "total": 282211331,
+      "mobile_app": 2570708,
+      "desktop": 112375002,
+      "mobile_web": 167265621
+    },
+    {
+      "date": "2024-09",
+      "year": 2024,
+      "month": 9,
+      "total": 256882039,
+      "mobile_app": 2295580,
+      "desktop": 102919766,
+      "mobile_web": 151666693
+    },
+    {
+      "date": "2024-10",
+      "year": 2024,
+      "month": 10,
+      "total": 263527203,
+      "mobile_app": 2392609,
+      "desktop": 103883415,
+      "mobile_web": 157251179
+    },
+    {
+      "date": "2024-11",
+      "year": 2024,
+      "month": 11,
+      "total": 277102982,
+      "mobile_app": 2442835,
+      "desktop": 109015204,
+      "mobile_web": 165644943
+    },
+    {
+      "date": "2024-12",
+      "year": 2024,
+      "month": 12,
+      "total": 280148600,
+      "mobile_app": 2545434,
+      "desktop": 105861522,
+      "mobile_web": 171741644
+    },
+    {
+      "date": "2025-01",
+      "year": 2025,
+      "month": 1,
+      "total": 318332888,
+      "mobile_app": 2666233,
+      "desktop": 123613186,
+      "mobile_web": 192053469
+    },
+    {
+      "date": "2025-02",
+      "year": 2025,
+      "month": 2,
+      "total": 267935462,
+      "mobile_app": 2269717,
+      "desktop": 106521807,
+      "mobile_web": 159143938
+    },
+    {
+      "date": "2025-03",
+      "year": 2025,
+      "month": 3,
+      "total": 293947969,
+      "mobile_app": 2458800,
+      "desktop": 123863540,
+      "mobile_web": 167625629
+    },
+    {
+      "date": "2025-04",
+      "year": 2025,
+      "month": 4,
+      "total": 271055599,
+      "mobile_app": 2364836,
+      "desktop": 112147119,
+      "mobile_web": 156543644
+    },
+    {
+      "date": "2025-05",
+      "year": 2025,
+      "month": 5,
+      "total": 282766536,
+      "mobile_app": 2185125,
+      "desktop": 120604153,
+      "mobile_web": 159977258
+    },
+    {
+      "date": "2025-06",
+      "year": 2025,
+      "month": 6,
+      "total": 248137871,
+      "mobile_app": 1924207,
+      "desktop": 105193500,
+      "mobile_web": 141020164
+    },
+    {
+      "date": "2025-07",
+      "year": 2025,
+      "month": 7,
+      "total": 265608520,
+      "mobile_app": 2062138,
+      "desktop": 110246815,
+      "mobile_web": 153299567
+    },
+    {
+      "date": "2025-08",
+      "year": 2025,
+      "month": 8,
+      "total": 286035223,
+      "mobile_app": 2322981,
+      "desktop": 119129860,
+      "mobile_web": 164582382
+    },
+    {
+      "date": "2025-09",
+      "year": 2025,
+      "month": 9,
+      "total": 286065278,
+      "mobile_app": 2157723,
+      "desktop": 130128306,
+      "mobile_web": 153779249
+    },
+    {
+      "date": "2025-10",
+      "year": 2025,
+      "month": 10,
+      "total": 295633961,
+      "mobile_app": 2238257,
+      "desktop": 133290532,
+      "mobile_web": 160105172
+    },
+    {
+      "date": "2025-11",
+      "year": 2025,
+      "month": 11,
+      "total": 334564779,
+      "mobile_app": 2258804,
+      "desktop": 169776873,
+      "mobile_web": 162529102
+    },
+    {
+      "date": "2025-12",
+      "year": 2025,
+      "month": 12,
+      "total": 335762579,
+      "mobile_app": 2224752,
+      "desktop": 179346524,
+      "mobile_web": 154191303
+    },
+    {
+      "date": "2026-01",
+      "year": 2026,
+      "month": 1,
+      "total": 340960669,
+      "mobile_app": 2292165,
+      "desktop": 177191234,
+      "mobile_web": 161477270
+    },
+    {
+      "date": "2026-02",
+      "year": 2026,
+      "month": 2,
+      "total": 256289473,
+      "mobile_app": 2019429,
+      "desktop": 110499673,
+      "mobile_web": 143770371
+    },
+    {
+      "date": "2026-03",
+      "year": 2026,
+      "month": 3,
+      "total": 261725916,
+      "mobile_app": 2106042,
+      "desktop": 123608888,
+      "mobile_web": 136010986
+    },
+    {
+      "date": "2026-04",
+      "year": 2026,
+      "month": 4,
+      "total": 238140336,
+      "mobile_app": 2089912,
+      "desktop": 108352901,
+      "mobile_web": 127697523
+    },
+    {
+      "date": "2026-05",
+      "year": 2026,
+      "month": 5,
+      "total": 252104694,
+      "mobile_app": 2111987,
+      "desktop": 119612779,
+      "mobile_web": 130379928
+    },
+    {
+      "date": "2026-06",
+      "year": 2026,
+      "month": 6,
+      "total": 250858684,
+      "mobile_app": 2010567,
+      "desktop": 116802348,
+      "mobile_web": 132045769
+    }
+  ],
+  "yearly": [
+    {
+      "year": 2016,
+      "months": 12,
+      "complete": true,
+      "total": 3840117435,
+      "desktop": 2619215403,
+      "mobile_web": 1202766271,
+      "mobile_app": 18135761,
+      "desktop_share": 68.2,
+      "mobile_web_share": 31.3,
+      "mobile_app_share": 0.5
+    },
+    {
+      "year": 2017,
+      "months": 12,
+      "complete": true,
+      "total": 3547495473,
+      "desktop": 2181157232,
+      "mobile_web": 1343950332,
+      "mobile_app": 22387909,
+      "desktop_share": 61.5,
+      "mobile_web_share": 37.9,
+      "mobile_app_share": 0.6
+    },
+    {
+      "year": 2018,
+      "months": 12,
+      "complete": true,
+      "total": 3599319479,
+      "desktop": 1968722423,
+      "mobile_web": 1607706108,
+      "mobile_app": 22890948,
+      "desktop_share": 54.7,
+      "mobile_web_share": 44.7,
+      "mobile_app_share": 0.6
+    },
+    {
+      "year": 2019,
+      "months": 12,
+      "complete": true,
+      "total": 3640997570,
+      "desktop": 1835986971,
+      "mobile_web": 1779606726,
+      "mobile_app": 25403873,
+      "desktop_share": 50.4,
+      "mobile_web_share": 48.9,
+      "mobile_app_share": 0.7
+    },
+    {
+      "year": 2020,
+      "months": 12,
+      "complete": true,
+      "total": 4018740197,
+      "desktop": 2092268202,
+      "mobile_web": 1902680530,
+      "mobile_app": 23791465,
+      "desktop_share": 52.1,
+      "mobile_web_share": 47.3,
+      "mobile_app_share": 0.6
+    },
+    {
+      "year": 2021,
+      "months": 12,
+      "complete": true,
+      "total": 3879509439,
+      "desktop": 1935226457,
+      "mobile_web": 1919239935,
+      "mobile_app": 25043047,
+      "desktop_share": 49.9,
+      "mobile_web_share": 49.5,
+      "mobile_app_share": 0.6
+    },
+    {
+      "year": 2022,
+      "months": 12,
+      "complete": true,
+      "total": 3675363276,
+      "desktop": 1648045204,
+      "mobile_web": 2000565165,
+      "mobile_app": 26752907,
+      "desktop_share": 44.8,
+      "mobile_web_share": 54.4,
+      "mobile_app_share": 0.7
+    },
+    {
+      "year": 2023,
+      "months": 12,
+      "complete": true,
+      "total": 3820260529,
+      "desktop": 1505874967,
+      "mobile_web": 2287263573,
+      "mobile_app": 27121989,
+      "desktop_share": 39.4,
+      "mobile_web_share": 59.9,
+      "mobile_app_share": 0.7
+    },
+    {
+      "year": 2024,
+      "months": 12,
+      "complete": true,
+      "total": 3613626607,
+      "desktop": 1458339314,
+      "mobile_web": 2126573976,
+      "mobile_app": 28713317,
+      "desktop_share": 40.4,
+      "mobile_web_share": 58.8,
+      "mobile_app_share": 0.8
+    },
+    {
+      "year": 2025,
+      "months": 12,
+      "complete": true,
+      "total": 3485846665,
+      "desktop": 1533862215,
+      "mobile_web": 1924850877,
+      "mobile_app": 27133573,
+      "desktop_share": 44.0,
+      "mobile_web_share": 55.2,
+      "mobile_app_share": 0.8
+    },
+    {
+      "year": 2026,
+      "months": 6,
+      "complete": false,
+      "total": 1600079772,
+      "desktop": 756067823,
+      "mobile_web": 831381847,
+      "mobile_app": 12630102,
+      "desktop_share": 47.3,
+      "mobile_web_share": 52.0,
+      "mobile_app_share": 0.8
+    }
+  ],
+  "meta": {
+    "source": "Wikimedia Analytics — Pageviews API (pl.wikipedia.org)",
+    "agent_filter": "user",
+    "range": "2016-01 — 2026-06",
+    "months_total": 126,
+    "full_years": [
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "partial_years": [
+      2026
+    ],
+    "seasonal_basis": "srednia z pelnych lat 2016–2025"
+  }
+}
