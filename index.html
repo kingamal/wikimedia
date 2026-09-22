@@ -437,6 +437,78 @@
             color: var(--wm-black-75);
         }
 
+        /* ---------- Objaśnienia terminów ---------- */
+        .term {
+            position: relative;
+            display: inline;
+        }
+
+        .term-btn {
+            font: inherit;
+            font-weight: 700;
+            color: var(--wm-blue);
+            background: none;
+            border: none;
+            border-bottom: 1px dotted var(--wm-blue);
+            padding: 0;
+            cursor: help;
+        }
+
+        .term-btn:focus-visible {
+            outline: 2px solid var(--wm-blue);
+            outline-offset: 2px;
+        }
+
+        .term-def {
+            display: none;
+            position: absolute;
+            left: 0;
+            top: calc(100% + 8px);
+            z-index: 30;
+            width: min(320px, 78vw);
+            padding: 12px 14px;
+            background: var(--wm-surface);
+            border: 1px solid var(--wm-black-25, #BFBFBF);
+            border-left: 4px solid var(--wm-blue);
+            border-radius: 2px;
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.16);
+            font-family: var(--font-body);
+            font-size: 0.86em;
+            font-weight: 400;
+            line-height: 1.5;
+            color: var(--wm-black-75);
+            text-align: left;
+        }
+
+        .term-def strong {
+            display: block;
+            font-family: var(--font-display);
+            font-size: 0.92em;
+            color: var(--wm-black);
+            margin-bottom: 5px;
+        }
+
+        .term-btn[aria-expanded="true"] + .term-def {
+            display: block;
+        }
+
+        /* Przy prawej krawędzi karty dymek wychodziłby poza nią. */
+        .term--right .term-def {
+            left: auto;
+            right: 0;
+        }
+
+        @media (max-width: 768px) {
+            .term-def {
+                position: fixed;
+                left: 12px;
+                right: 12px;
+                width: auto;
+                top: auto;
+                bottom: 16px;
+            }
+        }
+
         .insight--caveat {
             border-left-color: var(--wm-black-50);
             font-size: 0.9em;
@@ -1646,22 +1718,34 @@
                         </div>
                         <p>Najczęstsze wyjaśnienie spadku czytelnictwa Wikipedii mówi, że odpowiedzi
                            generowane przez AI przejmują ruch z wyszukiwarek. Zestawienie trendu z datami
-                           wdrożeń pozwala sprawdzić tę tezę na polskich danych.</p>
+                           wdrożenia <span class="term"><button type="button" class="term-btn"
+                           aria-expanded="false" data-term>ChatGPT</button><span class="term-def"
+                           role="tooltip"><strong>ChatGPT</strong>Chatbot firmy OpenAI, udostępniony
+                           30 listopada 2022 roku. Odpowiada na pytania w formie rozmowy, ale trzeba
+                           wejść na jego stronę lub do aplikacji, żeby z niego skorzystać.</span></span>
+                           i <span class="term"><button type="button" class="term-btn"
+                           aria-expanded="false" data-term>AI Overviews</button><span class="term-def"
+                           role="tooltip"><strong>AI Overviews, czyli Przegląd od AI</strong>Funkcja
+                           wyszukiwarki Google, która nad listą wyników wyświetla gotową odpowiedź
+                           wygenerowaną przez sztuczną inteligencję. Użytkownik często nie musi już
+                           klikać w żaden link, w tym w link do Wikipedii. W Polsce uruchomiona
+                           25 marca 2025 roku.</span></span> pozwala sprawdzić tę tezę
+                           na polskich danych.</p>
                         <div class="chart-container">
                             <canvas id="aiChart"></canvas>
                         </div>
                         <div class="stats">
                             <div class="stat-box">
-                                <div class="value">−9,7%</div>
-                                <div class="label">Przed ChatGPT<br>III 2021 – XI 2022</div>
+                                <div class="value">−14,3%</div>
+                                <div class="label">Rok przed AI Overviews<br>III 2024 – III 2025</div>
+                            </div>
+                            <div class="stat-box stat-box--positive">
+                                <div class="value">+2,3%</div>
+                                <div class="label">Rok po AI Overviews<br>III 2025 – III 2026</div>
                             </div>
                             <div class="stat-box">
                                 <div class="value">−8,2%</div>
-                                <div class="label">Era ChatGPT, przed AI Overviews<br>XI 2022 – III 2025</div>
-                            </div>
-                            <div class="stat-box stat-box--positive">
-                                <div class="value">+0,5%</div>
-                                <div class="label">Po wejściu AI Overviews<br>III 2025 – VI 2026</div>
+                                <div class="label">Cała era ChatGPT przed tą datą<br>XI 2022 – III 2025</div>
                             </div>
                         </div>
                         <div class="insight">
@@ -1671,16 +1755,22 @@
                             uruchomiono w Polsce dopiero <strong>25 marca 2025</strong>, czyli
                             pół roku później. Po tej dacie trend nie tylko nie przyspieszył spadku,
                             ale się ustabilizował, a jesień 2025 przyniosła wzrosty rzędu 20% rok do roku.
-                            Spadek zaczął się wcześniej i ma inne przyczyny.
+                            Porównanie symetryczne, dwanaście miesięcy przed i po tej dacie,
+                            daje <strong>−14,3%</strong> wobec <strong>+2,3%</strong>.
+                            Wynik nie zależy od doboru okresu: przy każdym punkcie startowym,
+                            od 2016 do 2024 roku, trend przed marcem 2025 opada, a po nim rośnie.
                         </div>
                         <div class="insight insight--caveat">
                             <strong>Zastrzeżenie metodologiczne.</strong> To zestawienie pokazuje
                             współwystępowanie w czasie, a nie związek przyczynowy. Dane Pageviews
                             nie zawierają informacji o źródłach wejść, więc nie da się z nich odczytać,
-                            ile ruchu pochodziło z wyszukiwarki. Wpływ AI na czytelnictwo mógł też
-                            zadziałać wcześniej i inną drogą, na przykład przez asystentów w telefonach
-                            albo zmiany w samej wyszukiwarce. Wniosek brzmi więc ostrożnie: wejście
-                            AI Overviews w Polsce nie pokrywa się w czasie z początkiem spadku.
+                            ile ruchu pochodziło z wyszukiwarki. Wpływ sztucznej inteligencji mógł zadziałać
+                            wcześniej i inną drogą: przez sam ChatGPT, przez asystentów w telefonach
+                            albo przez wcześniejsze zmiany w wyszukiwarce. Na trend nakładają się
+                            też czynniki niezwiązane z AI. Z tych danych wynika więc jedno,
+                            wąsko zakrojone stwierdzenie: <strong>moment wejścia AI Overviews w Polsce
+                            nie pokrywa się z początkiem spadku</strong>. To nie to samo,
+                            co teza, że AI nie wpływa na czytelnictwo Wikipedii.
                         </div>
                     </div>
                 </div>
@@ -1716,6 +1806,43 @@
                 createHeatmap();
             }, 100);
         }
+
+        /* Objaśnienia terminów: otwarcie kliknięciem działa też na dotyk,
+           w odróżnieniu od samego :hover. */
+        function closeTerms(except) {
+            document.querySelectorAll('.term-btn[aria-expanded="true"]').forEach(b => {
+                if (b !== except) b.setAttribute('aria-expanded', 'false');
+            });
+        }
+
+        document.addEventListener('click', (e) => {
+            const term = e.target.closest('[data-term]');
+            closeTerms(term);
+            if (term) {
+                const open = term.getAttribute('aria-expanded') === 'true';
+                term.setAttribute('aria-expanded', open ? 'false' : 'true');
+                e.stopPropagation();
+            }
+        });
+
+        document.addEventListener('mouseover', (e) => {
+            const term = e.target.closest('[data-term]');
+            if (term && window.matchMedia('(hover: hover)').matches) {
+                closeTerms(term);
+                term.setAttribute('aria-expanded', 'true');
+            }
+        });
+
+        document.addEventListener('mouseout', (e) => {
+            const term = e.target.closest('[data-term]');
+            if (term && window.matchMedia('(hover: hover)').matches) {
+                term.setAttribute('aria-expanded', 'false');
+            }
+        });
+
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') closeTerms(null);
+        });
 
         /* Delegacja zdarzeń: karty są wstawiane dynamicznie,
            więc nasłuchujemy na dokumencie, nie na samych przyciskach. */
